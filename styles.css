@@ -67,15 +67,15 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 15px;
     height: 100%;
     width: 100%;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #7945fc, #190aef, #833ab4);
+    background: url("rocket.png");
+    height: 120px;
+    width: 120px;
     color: #fff;
     transition: all 0.3s ease;
 }

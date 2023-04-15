@@ -1,3 +1,4 @@
+/*general formatting*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +7,7 @@
     scroll-behavior: smooth;
 }
 
+/*formatting of the navigation bar*/
 .nabar {
     background: #131313;
     height: 80px;
@@ -17,7 +19,6 @@
     top: 0;
     z-index: 999;
 }
-
 .navbar_container {
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,7 @@
     margin: 0 auto;
     padding: 0 50 px;
 }
-
+/*The logo in the upper left hand corner of the screen*/
 #navbar_logo {
     background-color: ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -53,18 +54,7 @@
 .navbar_item {
     height: 80px;
 }
-
-.navbar_links {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 125px;
-    text-decoration: none;
-    height: 100%;
-    transition: all 0.3s ease
-}
-
+/*The navigation button for the tracker*/
 .navbar_btn {
     display: flex;
     justify-content: center;
@@ -72,7 +62,6 @@
     padding: 0 1rem;
     width: 100%;
 }
-
 .button {
     display: flex;
     justify-content: center;
@@ -86,14 +75,9 @@
     border-radius: 4px;
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #7945fc, #190aef, #833ab4);
     color: #fff;
     transition: all 0.3s ease;
-}
-
-.navbar_links:hover {
-    color: #9518fc;
-    transition: all 0.3s ease
 }
 
 
@@ -101,7 +85,6 @@
 .scrollmenu {
     position: relative;
   }
-  
   /* Make the image responsive */
   .scrollmenu img {
     width: 100%;

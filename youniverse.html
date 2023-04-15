@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Youniverse</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {background-color: #000c40;}
         h1 {color: lightslategray;font-family: 'Courier New', Courier, monospace;}
@@ -9,10 +10,38 @@
     </style>
 </head>    
 <body>
-        
+        <nav class="navbar"></nav>
+        <div class="navbar_container">
+            <a href="#home"
+            id="navbar_logo">Youniverse</
+                a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="#home" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#about" class="navbar_links" id="about-page">About</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#service" class="navbar_links" id="service-page">Services</a>
+                    </li>
+                    <li class="navbar_btn">
+                        <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                    </li>
+                </ul>
+        </div>
         <h1 style="font-size:275%; text-align: center;" >Youniverse</h1>
         <br>
         <br>
         <h2 style="font-size:175%; text-align: center;">Tracker</h2>
+        <div class="container">
+            <img src="planet1.png" alt="Planet 1">
+            <button class="btn">Button</button>
+        </div>
     </body>
 </html>

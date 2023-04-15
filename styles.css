@@ -96,14 +96,16 @@
     transition: all 0.3s ease
 }
 
+
 /* Container needed to position the button. Adjust the width as needed */
-.container {
+.scrollmenu {
     position: relative;
   }
   
   /* Make the image responsive */
-  .container img {
+  .scrollmenu img {
     width: 100%;
     height: auto;
   }
+  
   

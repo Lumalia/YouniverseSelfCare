@@ -99,7 +99,6 @@
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
-    width: 50%;
   }
   
   /* Make the image responsive */
@@ -127,3 +126,4 @@
   .container .btn:hover {
     background-color: black;
   }
+
